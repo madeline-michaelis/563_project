@@ -20,3 +20,6 @@
    ii. I checked 2 results in the viewer and they looked much better after being translated to protein.
    iii. I reorganized the files and structure and uploaded aligned protein seqs and script to github.
 4. I updated my notes.
+
+Notes from talking with Ben:
+- After mafft use trimaligned to trim alignments
