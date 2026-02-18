@@ -12,7 +12,7 @@
 
 #To do this I will use seqkit, which is a tool that allows you to see the stats of your sequences (length), identify sequences with Ns and duplicates. This will help me clean my data.
 
-2/17/26 HW: MSA
+# 2/17/26 HW: MSA
 1. Selected final gene set: WB, LAH, sppA, chsB, ags1, fks1.
 2. Downloaded from OrthoDB (find AA sequence in fungiDB, put into UNIPROT, put gene name into OrthoFinder. All had 100 -120 hits out of 115 spp.
 3. Made sh script (msa_align.sh) that will take sequence, remove weird JSON formatting that came with it from OrthoDB, and convert it to protein sequence, then run mafft -auto on it.
