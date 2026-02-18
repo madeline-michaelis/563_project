@@ -12,3 +12,11 @@
 
 #To do this I will use seqkit, which is a tool that allows you to see the stats of your sequences (length), identify sequences with Ns and duplicates. This will help me clean my data.
 
+#2/17/26
+1. Selected final gene set: WB, LAH, sppA, chsB, ags1, fks1.
+2. Downloaded from OrthoDB (find AA sequence in fungiDB, put into UNIPROT, put gene name into OrthoFinder. All had 100 -120 hits out of 115 spp.
+3. Made sh script (msa_align.sh) that will take sequence, remove weird JSON formatting that came with it from OrthoDB, and convert it to protein sequence, then run mafft -auto on it.
+   i. At first I wanted nucleotides, but this resulted in a lot of variance in the viewer. I found that codons can be better since they are more conserved.
+   ii. I checked 2 results in the viewer and they looked much better after being translated to protein.
+   iii. I reorganized the files and structure and uploaded aligned protein seqs and script to github.
+4. I updated my notes.
