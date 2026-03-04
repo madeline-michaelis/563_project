@@ -23,3 +23,10 @@
 
 Notes from talking with Ben:
 - After mafft use trimaligned to trim alignments
+______________________________________________________
+**3/3/26 HW: Distance-based and parsimony-based tree methods**
+- First: too many genes, decided I am dropping LAH, ChsB, and keeping fks1, ags1, sppA, and WB.
+- I made my reproducible script for these four gene sequence sets. I had to alter the way I used phangorn, because mine are AA sequences instead of nucleotides. I hope this is ok.
+- The plots seemed to work, they looked good. one had a strange box shape, but I think that is because it didn't have room. One issue with these plots in R is that its hard to fit everything into one image, which is something I should read more about how to optimize. They still seemed to work, though.
+- I decided to make first two functions, one that will compute each tree for me, then I decided to make a loop that you can essentially feed a list of filenames (fastas) and it will use both functions on the file and then save the file as a pdf in a folder of your choice. This should make everything faster for next time.
+- I will now rearrange my directory because it doesn't make sense currently. It is main/sequences/scripts/etc, when scripts should be on the same level as sequences I think.
