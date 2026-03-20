@@ -30,3 +30,7 @@ ______________________________________________________
 - The plots seemed to work, they looked good. one had a strange box shape, but I think that is because it didn't have room. One issue with these plots in R is that its hard to fit everything into one image, which is something I should read more about how to optimize. They still seemed to work, though.
 - I decided to make first two functions, one that will compute each tree for me, then I decided to make a loop that you can essentially feed a list of filenames (fastas) and it will use both functions on the file and then save the file as a pdf in a folder of your choice. This should make everything faster for next time.
 - I will now rearrange my directory because it doesn't make sense currently. It is main/sequences/scripts/etc, when scripts should be on the same level as sequences I think.
+
+**3/19/26 HW: Phylogeneteic tree construction with IQ-Tree**
+- I made a short reproducible script that takes an input file and runs iqtree on it. I am goign to use this on all of my protein aligned fasta sequences.
+- I updated the script and pushed it to the github. I also listed assumptions/limitaitons with a descrpitoin of the script/
