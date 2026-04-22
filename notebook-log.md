@@ -31,6 +31,18 @@ ______________________________________________________
 - I decided to make first two functions, one that will compute each tree for me, then I decided to make a loop that you can essentially feed a list of filenames (fastas) and it will use both functions on the file and then save the file as a pdf in a folder of your choice. This should make everything faster for next time.
 - I will now rearrange my directory because it doesn't make sense currently. It is main/sequences/scripts/etc, when scripts should be on the same level as sequences I think.
 
+<<<<<<< HEAD
 **3/19/26 HW: Phylogeneteic tree construction with IQ-Tree**
 - I made a short reproducible script that takes an input file and runs iqtree on it. I am goign to use this on all of my protein aligned fasta sequences.
 - I updated the script and pushed it to the github. I also listed assumptions/limitaitons with a descrpitoin of the script/
+=======
+___________________
+
+
+___________________
+4/21/26 HW: Coalescent Method
+- Used claude to help write a script that takes my fastas as inputs, converts them into XML files using BEAUti, then runs BEAST2 on them to create final tree.
+- Successfully downloaded BEAST2 and BEAUti
+- BEAST2 uses MCMC method and Bayesian analysis which outputs parameter files and many phylogenetic trees
+- These trees are compiled into a master tree, the maximum clade compatibility tree that represents the most probably tree topology.
+>>>>>>> 90c29fa (created coalescent sh script and updated notebook-log)
