@@ -4,11 +4,6 @@
 # ./align_mafft.sh input.fasta
 # ./align_mafft.sh *.fasta
 
-if [ "$#" -lt 1 ]; then
-    echo "Usage: $0 <fasta_file1> [fasta_file2 ...]"
-    exit 1
-fi
-
 for infile in "$@"; do
     base=$(basename "$infile" .fasta)
 
@@ -18,20 +13,19 @@ for infile in "$@"; do
 
     echo "Processing $infile ..."
 
-    #Clean headers to remove weird JSON
+    #Clean headers to remove weird JSON formatting if any
     awk '{if(/^>/){print $1}else{print $0}}' "$infile" > "$cleanfile"
     echo "Headers cleaned → $cleanfile"
 
-    ️⃣#ranslate CDS to protein sequence
+    ️⃣#Translate CDS to protein sequence if needed
     seqkit translate --trim "$cleanfile" > "$proteinfile"
     echo "Translated → $proteinfile"
 
-    #Align protein sequences
+    #Align protein sequences with MAFFT
     mafft --auto "$proteinfile" > "$alignedfile"
     echo "Aligned protein file created → $alignedfile"
 
     echo "Done with $infile"
-    echo "----------------------------------"
 
 done
 
