@@ -1,0 +1,9 @@
+Phylogenetic Tree Comparison Results
+=====================================
+IQ-TREE file:                          sppa_iqtree_f.xml
+Parsimony file:                        sppa_pars.xml
+Shared taxa:                           112
+Clustering Info Distance (normalized): 0.321
+Matching Split Distance:               355.000
+Tree Distance:                         0.321
+Interpretation:                        Moderate disagreement between methods

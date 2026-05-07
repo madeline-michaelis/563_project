@@ -1,0 +1,9 @@
+Phylogenetic Tree Comparison Results
+=====================================
+IQ-TREE file:                          wb_iq_final.xml
+Parsimony file:                        chsB_iq_final.xml
+Shared taxa:                           107
+Clustering Info Distance (normalized): 0.327
+Matching Split Distance:               339.000
+Tree Distance:                         0.327
+Interpretation:                        Moderate disagreement between methods

@@ -1,0 +1,9 @@
+Phylogenetic Tree Comparison Results
+=====================================
+IQ-TREE file:                          fks1_iqtree_f.xml
+Parsimony file:                        fks1_pars.xml
+Shared taxa:                           111
+Clustering Info Distance (normalized): 0.214
+Matching Split Distance:               231.000
+Tree Distance:                         0.214
+Interpretation:                        Moderate disagreement between methods

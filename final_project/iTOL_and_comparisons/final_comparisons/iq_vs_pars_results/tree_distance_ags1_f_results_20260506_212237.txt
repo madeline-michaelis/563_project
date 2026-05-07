@@ -1,0 +1,9 @@
+Phylogenetic Tree Comparison Results
+=====================================
+IQ-TREE file:                          ags1_iq_final.xml
+Parsimony file:                        ags1_pars.xml
+Shared taxa:                           100
+Clustering Info Distance (normalized): 0.210
+Matching Split Distance:               181.000
+Tree Distance:                         0.210
+Interpretation:                        Moderate disagreement between methods

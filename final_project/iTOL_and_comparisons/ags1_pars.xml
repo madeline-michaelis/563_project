@@ -1,0 +1,800 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+<phylogeny rooted="true"><clade>
+<name>Aspergillus</name>
+<clade>
+<name>Aspergillus subgen Circumdati</name>
+<branch_length>0.5</branch_length>
+<clade>
+<name>Aspergillus subgen Circumdati</name>
+<branch_length>0</branch_length>
+<clade>
+<name>Aspergillus subgen Circumdati</name>
+<branch_length>0</branch_length>
+<clade>
+<name>Aspergillus oryzae RIB40</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus subgen Circumdati</name>
+<branch_length>0</branch_length>
+<clade>
+<name>Aspergillus oryzae 3042</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus oryzae</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus oryzae 100-8</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus oryzae var brunneus</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>0.5</branch_length>
+<confidence type="bootstrap">0.63</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>1</branch_length>
+<confidence type="bootstrap">0.71</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>1</branch_length>
+<confidence type="bootstrap">0.63</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>2.5</branch_length>
+<confidence type="bootstrap">0.87</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>14</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>3</branch_length>
+<confidence type="bootstrap">0.61</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>3</branch_length>
+<confidence type="bootstrap">0.87</confidence>
+<clade>
+<name>Aspergillus transmontanensis</name>
+<branch_length>3</branch_length>
+</clade>
+<clade>
+<name>Aspergillus</name>
+<branch_length>1</branch_length>
+<clade>
+<name>Aspergillus parasiticus</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus parasiticus SU-1</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus sergii</name>
+<branch_length>4</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>7</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus arachidicola</name>
+<branch_length>6</branch_length>
+</clade>
+<clade>
+<name>Aspergillus novoparasiticus</name>
+<branch_length>5</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus minisclerotigenes</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>28.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>33.5</branch_length>
+<confidence type="bootstrap">0.91</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>43</branch_length>
+<confidence type="bootstrap">0.95</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>46</branch_length>
+<confidence type="bootstrap">0.94</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>58.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>66</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>72.5</branch_length>
+<confidence type="bootstrap">0.97</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>70.5</branch_length>
+<confidence type="bootstrap">0.78</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>74.5</branch_length>
+<confidence type="bootstrap">0.56</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>162.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>154</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>85</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>5.5</branch_length>
+<confidence type="bootstrap">0.85</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>0</branch_length>
+<confidence type="bootstrap">0.24</confidence>
+<clade>
+<name>Aspergillus uvarum CBS 121591</name>
+<branch_length>14</branch_length>
+</clade>
+<clade>
+<name>Aspergillus indologenus CBS 11480</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>4</branch_length>
+<clade>
+<name>Aspergillus violaceofuscus CBS 115571</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus japonicus CBS 11451</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus brunneoviolaceus CBS 62178</name>
+<branch_length>9.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus homomorphus CBS 101889</name>
+<branch_length>99</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>235</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>81</branch_length>
+<confidence type="bootstrap">0.95</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>106</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus sclerotioniger CBS 115572</name>
+<branch_length>50.5</branch_length>
+</clade>
+<clade>
+<name>Aspergillus carbonarius ITEM 5010</name>
+<branch_length>51.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>133</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>26</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>3</branch_length>
+<confidence type="bootstrap">0.98</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>3</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus phoenicis ATCC 13157</name>
+<branch_length>1</branch_length>
+</clade>
+<clade>
+<name>Aspergillus niger ATCC 13496</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus welwitschiae</name>
+<branch_length>3</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus niger ATCC 1015</name>
+<branch_length>6</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>37</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>7</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus tubingensis</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus tubingensis CBS 13448</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus luchuensis IFO 4308</name>
+<branch_length>5</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>131</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>34.5</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>8.5</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus fijiensis CBS 31389</name>
+<branch_length>9</branch_length>
+</clade>
+<clade>
+<name>Aspergillus aculeatinus CBS 121060</name>
+<branch_length>6</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus aculeatus ATCC 16872</name>
+<branch_length>14.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus saccharolyticus JOP 1030-1</name>
+<branch_length>58.5</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>Aspergillus ellipticus CBS 70779</name>
+<branch_length>161.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>53.5</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>60.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>14</branch_length>
+<confidence type="bootstrap">0.98</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>8</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>3</branch_length>
+<confidence type="bootstrap">0.58</confidence>
+<clade>
+<name>Aspergillus niger CBS 101883</name>
+<branch_length>7</branch_length>
+</clade>
+<clade>
+<name>Aspergillus</name>
+<branch_length>1</branch_length>
+<confidence type="bootstrap">0.48</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>6</branch_length>
+<confidence type="bootstrap">0.83</confidence>
+<clade>
+<name>Aspergillus awamori</name>
+<branch_length>4</branch_length>
+</clade>
+<clade>
+<name>Aspergillus niger</name>
+<branch_length>4</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus niger</name>
+<branch_length>1</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus niger CBS 51388</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>8</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>5</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>1</branch_length>
+<clade>
+<name>Aspergillus luchuensis CBS 10647</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus luchuensis</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus piperis CBS 112811</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>2</branch_length>
+<confidence type="bootstrap">0.92</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>1</branch_length>
+<confidence type="bootstrap">0.71</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>0</branch_length>
+<confidence type="bootstrap">0.23</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>0</branch_length>
+<confidence type="bootstrap">0.19</confidence>
+<clade>
+<name>Aspergillus vadensis CBS 113365</name>
+<branch_length>2</branch_length>
+</clade>
+<clade>
+<name>Aspergillus niger</name>
+<branch_length>2</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus costaricaensis CBS 115574</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus neoniger CBS 115656</name>
+<branch_length>5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus eucalypticola CBS 122712</name>
+<branch_length>7</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>22</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus brasiliensis</name>
+<branch_length>6</branch_length>
+</clade>
+<clade>
+<name>Aspergillus brasiliensis CBS 101740</name>
+<branch_length>6</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>81.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus ibericus CBS 121593</name>
+<branch_length>32</branch_length>
+</clade>
+<clade>
+<name>Aspergillus sclerotiicarbonarius CBS 121057</name>
+<branch_length>47</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>121.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>92.5</branch_length>
+<confidence type="bootstrap">0.41</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>198</branch_length>
+<confidence type="bootstrap">0.68</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>126</branch_length>
+<confidence type="bootstrap">0.68</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>61</branch_length>
+<confidence type="bootstrap">0.93</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>53.5</branch_length>
+<confidence type="bootstrap">0.93</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>59</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus subgen Fumigati</name>
+<branch_length>19</branch_length>
+<confidence type="bootstrap">0.96</confidence>
+<clade>
+<name>Aspergillus subgen Fumigati</name>
+<branch_length>49</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus subgen Fumigati</name>
+<branch_length>1</branch_length>
+<confidence type="bootstrap">0.71</confidence>
+<clade>
+<name>Aspergillus subgen Fumigati</name>
+<branch_length>0</branch_length>
+<confidence type="bootstrap">0.19</confidence>
+<clade>
+<name>Aspergillus fumigatus Af293</name>
+<branch_length>2</branch_length>
+</clade>
+<clade>
+<name>Aspergillus subgen Fumigati</name>
+<branch_length>1</branch_length>
+<clade>
+<name>Aspergillus fumigatus</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus fumigatus A1163</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus fumigatus Z5</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus fumigatus var RP-2014</name>
+<branch_length>1</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus subgen Fumigati</name>
+<branch_length>20</branch_length>
+<clade>
+<name>Aspergillus fischeri</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus fischeri NRRL 181</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>17</branch_length>
+<confidence type="bootstrap">0.71</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>18</branch_length>
+<confidence type="bootstrap">0.46</confidence>
+<clade>
+<name>Aspergillus novofumigatus IBT 16806</name>
+<branch_length>64</branch_length>
+</clade>
+<clade>
+<name>Aspergillus lentulus</name>
+<branch_length>20</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus fumigatiaffinis</name>
+<branch_length>17</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>48</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>29</branch_length>
+<confidence type="bootstrap">0.73</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>22.5</branch_length>
+<confidence type="bootstrap">0.79</confidence>
+<clade>
+<name>Aspergillus felis</name>
+<branch_length>29</branch_length>
+</clade>
+<clade>
+<name>Aspergillus pseudoviridinutans</name>
+<branch_length>40</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus viridinutans</name>
+<branch_length>36.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus udagawae</name>
+<branch_length>64</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>72.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus hiratsukae</name>
+<branch_length>60</branch_length>
+</clade>
+<clade>
+<name>Aspergillus turcosus</name>
+<branch_length>39</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus thermomutatus</name>
+<branch_length>61</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus clavatus NRRL 1</name>
+<branch_length>200</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus subgen Cremei</name>
+<branch_length>250</branch_length>
+<clade>
+<name>Aspergillus wentii</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus wentii DTO 134E9</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>95.5</branch_length>
+<confidence type="bootstrap">0.41</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>98</branch_length>
+<confidence type="bootstrap">0.35</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>102.5</branch_length>
+<confidence type="bootstrap">0.37</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>239.5</branch_length>
+<confidence type="bootstrap">0.21</confidence>
+<clade>
+<name>Aspergillus nanangensis</name>
+<branch_length>1</branch_length>
+</clade>
+<clade>
+<name>Aspergillus heteromorphus CBS 11755</name>
+<branch_length>6</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>110.5</branch_length>
+<confidence type="bootstrap">0.75</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>70</branch_length>
+<confidence type="bootstrap">0.64</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>201</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus carlsbadensis</name>
+<branch_length>83.5</branch_length>
+</clade>
+<clade>
+<name>Aspergillus calidoustus</name>
+<branch_length>50.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>142</branch_length>
+<confidence type="bootstrap">0.91</confidence>
+<clade>
+<name>Aspergillus subgen Nidulantes</name>
+<branch_length>88.5</branch_length>
+<confidence type="bootstrap">0.92</confidence>
+<clade>
+<name>Aspergillus nidulans FGSC A4</name>
+<branch_length>62</branch_length>
+</clade>
+<clade>
+<name>Aspergillus egyptiacus</name>
+<branch_length>133</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus mulundensis</name>
+<branch_length>146.5</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>69</branch_length>
+<confidence type="bootstrap">0.61</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>137</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>23.5</branch_length>
+<confidence type="bootstrap">0.45</confidence>
+<clade>
+<name>Aspergillus versicolor CBS 58365</name>
+<branch_length>54</branch_length>
+</clade>
+<clade>
+<name>Aspergillus puulaauensis</name>
+<branch_length>49</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus sydowii CBS 59365</name>
+<branch_length>49.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>73</branch_length>
+<confidence type="bootstrap">0.79</confidence>
+<clade>
+<name>Aspergillus subgen Circumdati</name>
+<branch_length>138.5</branch_length>
+<confidence type="bootstrap">0.98</confidence>
+<clade>
+<name>Aspergillus terreus</name>
+<branch_length>14</branch_length>
+</clade>
+<clade>
+<name>Aspergillus terreus NIH2624</name>
+<branch_length>10</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus alliaceus</name>
+<branch_length>197.5</branch_length>
+</clade>
+</clade></clade></clade></clade><clade>
+<name>Aspergillus</name>
+<branch_length>223.5</branch_length>
+<clade>
+<name>Aspergillus</name>
+<branch_length>0</branch_length>
+<clade>
+<name>Aspergillus ochraceoroseus IBT 24754</name>
+<branch_length>0</branch_length>
+</clade>
+<clade>
+<name>Aspergillus rambellii</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus ochraceoroseus</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus tanneri</name>
+<branch_length>162</branch_length>
+</clade>
+</clade></clade></clade><clade>
+<name>Aspergillus avenaceus</name>
+<branch_length>120.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>64</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus hancockii</name>
+<branch_length>72.5</branch_length>
+</clade>
+<clade>
+<name>Aspergillus leporis</name>
+<branch_length>62.5</branch_length>
+</clade>
+</clade></clade><clade>
+<name>Aspergillus coremiiformis</name>
+<branch_length>95.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus burnettii</name>
+<branch_length>100</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus bertholletiae</name>
+<branch_length>71</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>7.5</branch_length>
+<confidence type="bootstrap">0.51</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>21</branch_length>
+<confidence type="bootstrap">0.99</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>9.5</branch_length>
+<confidence type="bootstrap">0.9</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>10.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus pseudocaelatus</name>
+<branch_length>2</branch_length>
+</clade>
+<clade>
+<name>Aspergillus caelatus</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus pseudotamarii</name>
+<branch_length>14.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus tamarii</name>
+<branch_length>18.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus</name>
+<branch_length>15</branch_length>
+<confidence type="bootstrap">0.9</confidence>
+<clade>
+<name>Aspergillus</name>
+<branch_length>17.5</branch_length>
+<confidence type="bootstrap">1</confidence>
+<clade>
+<name>Aspergillus pseudonomiae</name>
+<branch_length>2.5</branch_length>
+</clade>
+<clade>
+<name>Aspergillus nomiae NRRL 13137</name>
+<branch_length>5.5</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus bombycis</name>
+<branch_length>21.5</branch_length>
+</clade>
+</clade></clade></clade></clade><clade>
+<name>Aspergillus flavus AF70</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus flavus</name>
+<branch_length>0</branch_length>
+</clade>
+</clade><clade>
+<name>Aspergillus flavus NRRL3357</name>
+<branch_length>0</branch_length>
+</clade>
+</clade></clade></phylogeny></phyloxml>
