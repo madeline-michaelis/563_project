@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #run to call parsimony_tree.R
 #Usage: bash parsimony.sh filename
+#Filename should be fasta of multiple sequence alignment of interest, that has been trimmed with TrimAL.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 RSCRIPT="${SCRIPT_DIR}/parsimony_tree.R" #reference script
