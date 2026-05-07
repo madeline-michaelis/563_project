@@ -109,9 +109,11 @@ bash scripts/tree_comparisons.sh <gene>_ml.xml <gene>_mp.xml
   - Tree Distance
 - Generates a cophyloplot using `phytools::cophylo()` with `rotate = TRUE`
 
-## Notes
+## Important Notes
 
-- Keep copies of data from each step
+- Keep copies of data from each step.
+- In this repository, the fks1 and ags1 sequences and data from each step are preserved so you can check your work as you go along.
+- In this repository, there is a folder with all 'scripts' but they are also inside their respective folders. It is recommended you clone the entire repo, then run the scripts that are within the folders so your data gets input and ouput within that given folder.
 - All scripts assume input sequences are AA (protein) FASTA format after translation
 - MAFFT assumes all input sequences are homologous and does not account for genomic rearrangements or domain shuffling
 - MP assumes sites evolve independently and that convergent evolution, reversals, and parallel mutations are rare; it performs best when evolutionary rates are similar across branches
