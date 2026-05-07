@@ -1,15 +1,14 @@
 #!/bin/bash
-
+#Assign arguments
 IQTREE_XML="$1"
 PARS_XML="$2"
-TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+TIMESTAMP=$(date +"%Y%m%d_%H%M%S") #add timestamp to differentiate files
 
 echo "  Phylogenetic Tree Comparison"
 echo "  IQ-TREE:    $IQTREE_XML"
 echo "  Parsimony:  $PARS_XML"
-echo "============================================"
 
-#R script
+#Call upon R script with arguments as input
 Rscript - "$IQTREE_XML" "$PARS_XML" "$TIMESTAMP" <<'EOF'
 
 #Use args
@@ -28,20 +27,10 @@ cat("\nLoading trees...\n")
 tree_iq   <- as.phylo(read.phyloxml(iqtree_file))
 tree_pars <- as.phylo(read.phyloxml(pars_file))
 
-cat(sprintf("  IQ-TREE tips:    %d\n", length(tree_iq$tip.label)))
-cat(sprintf("  Parsimony tips:  %d\n", length(tree_pars$tip.label)))
-
 #only include shared tips
 shared    <- intersect(tree_iq$tip.label, tree_pars$tip.label)
 only_iq   <- setdiff(tree_iq$tip.label, tree_pars$tip.label)
 only_pars <- setdiff(tree_pars$tip.label, tree_iq$tip.label)
-
-#report shared tips amounts
-cat(sprintf("\nShared taxa:          %d\n", length(shared)))
-if (length(only_iq) > 0)
-  cat(sprintf("Only in IQ-TREE:      %d  (%s ...)\n", length(only_iq), paste(head(only_iq, 3), collapse=", ")))
-if (length(only_pars) > 0)
-  cat(sprintf("Only in Parsimony:    %d  (%s ...)\n", length(only_pars), paste(head(only_pars, 3), collapse=", ")))
 
 #trim trees to shared tips
 tree_iq_trim   <- keep.tip(tree_iq,   shared)
@@ -57,10 +46,6 @@ cid  <- ClusteringInfoDistance(tree_iq_un, tree_pars_un, normalize = TRUE)
 msd  <- MatchingSplitDistance(tree_iq_un, tree_pars_un)
 td   <- TreeDistance(tree_iq_un, tree_pars_un)
 
-cat(sprintf("  Clustering Info Distance (normalized): %.3f\n", cid))
-cat(sprintf("  Matching Split Distance:               %.3f\n", msd))
-cat(sprintf("  Tree Distance:                         %.3f\n", td))
-
 if (cid < 0.2) {
   interp <- "Good agreement between methods"
 } else if (cid < 0.4) {
@@ -68,20 +53,12 @@ if (cid < 0.2) {
 } else {
   interp <- "Substantial disagreement between methods"
 }
-cat(sprintf("  Interpretation: %s\n", interp))
 
 #save results
 results_out <- paste0("tree_distance_results_", timestamp, ".txt")
 sink(results_out)
 cat("Phylogenetic Tree Comparison Results\n")
-cat("=====================================\n")
-cat(sprintf("IQ-TREE file:                          %s\n", iqtree_file))
-cat(sprintf("Parsimony file:                        %s\n", pars_file))
-cat(sprintf("Shared taxa:                           %d\n", length(shared)))
-cat(sprintf("Clustering Info Distance (normalized): %.3f\n", cid))
-cat(sprintf("Matching Split Distance:               %.3f\n", msd))
-cat(sprintf("Tree Distance:                         %.3f\n", td))
-cat(sprintf("Interpretation:                        %s\n", interp))
+
 sink()
 cat(sprintf("\nResults saved to: %s\n", results_out))
 
@@ -112,8 +89,6 @@ cat("\nDone!\n")
 
 EOF
 
-echo "============================================"
 echo "Data saved! Output files:"
 echo "  tree_distance_results.txt  - Distance metrics summary"
 echo "  tree_comparison.pdf        - Cophylo plot"
-echo "============================================"
