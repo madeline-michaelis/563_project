@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
+#run to call parsimony_tree.R
+#Usage: bash parsimony.sh filename
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-RSCRIPT="${SCRIPT_DIR}/parsimony_tree.R"
+RSCRIPT="${SCRIPT_DIR}/parsimony_tree.R" #reference script
 
 INPUT="$1"
 TYPE="${2:-AA}"
@@ -15,7 +17,9 @@ Rscript -e '
     install.packages(missing, repos = "https://cloud.r-project.org", quiet = TRUE)
   }
 '
+#installs packages if missing
 
+#calls R script
 echo "Building parsimony tree from $INPUT ..."
 Rscript "$RSCRIPT" \
   --input "$INPUT" \
