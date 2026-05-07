@@ -16,7 +16,7 @@ opts <- list(
 )
 
 i <- 1
-while (i <= length(args)) {
+while (i <= length(args)) { #do not need to change, parsing arguments
   switch(args[i],
     "--input"        = { i <- i + 1; opts$input  <- args[i] },
     "--format"       = { i <- i + 1; opts$format <- args[i] },
@@ -34,14 +34,13 @@ while (i <= length(args)) {
 cat("Maximum Parsimony Tree Builder\n")
 
 cat("Reading alignment...\n")
-# ambiguity="-" tells phangorn to treat gap characters as ambiguous (valid for trimmed alignments)
+# ambiguity="-" tells phangorn to treat gap characters as ambiguous (valid for trimmed alignments). this is helpful if you have missing gaps.
 aln <- read.phyDat(file = opts$input, format = opts$format, type = opts$type)
 ntax  <- length(aln)
-nsites <- ncol(as.character(aln))  # fix: as.character returns a matrix; use ncol()
-cat(sprintf("  %d taxa, %d sites\n", ntax, nsites))
+nsites <- ncol(as.character(aln))
 
 cat("Computing NJ starting tree...\n")
-dm      <- if (opts$type == "DNA") dist.ml(aln, model = "JC") else dist.ml(aln)
+dm      <- dist.ml(aln) #user note: this only works on AA sequences!
 nj_tree <- NJ(dm)
 
 cat("Running parsimony search (pratchet)...\n")
@@ -61,7 +60,7 @@ if (inherits(mp_tree, "multiPhylo")) {
   mp_tree  <- mp_tree[[best_idx]]
 }
 
-# Bootstrap (only when --no-bootstrap was NOT passed)
+# Bootstrap analysis
 if (opts$bootstrap) {
   cat("Running bootstrap (bs=1000)...\n")
   bs_trees <- bootstrap.phyDat(
@@ -74,13 +73,13 @@ if (opts$bootstrap) {
   mp_tree <- transferBootstrap(mp_tree, bs_trees)
   cat("Bootstrap analysis complete\n")
 }
-
+#assign outputs to tree
 mp_tree <- unroot(mp_tree)
 mp_tree <- acctran(mp_tree, aln)
 mp_tree$edge.length[mp_tree$edge.length < 0] <- 0
 
 cat("Writing outputs...\n")
-
+#saving
 newick_file  <- paste0(opts$out, ".tre")
 write.tree(mp_tree, file = newick_file)
 
