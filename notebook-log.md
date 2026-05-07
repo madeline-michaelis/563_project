@@ -46,3 +46,9 @@ ___________________
 - BEAST2 uses MCMC method and Bayesian analysis which outputs parameter files and many phylogenetic trees
 - These trees are compiled into a master tree, the maximum clade compatibility tree that represents the most probably tree topology.
 >>>>>>> 90c29fa (created coalescent sh script and updated notebook-log)
+>>>>>>>
+5/4/26
+- Updated all scripts
+- Re-ran on files to check
+- Cleaned repo
+- Updated README instructions
