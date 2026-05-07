@@ -17,10 +17,10 @@ This pipeline takes raw nucleotide FASTA sequences as input and produces:
 ### Command-line tools
 | Tool | Version | Purpose |
 |------|---------|---------|
-| [seqkit](https://bioinf.shenwei.me/seqkit/) | v2.12.0 | Sequence cleaning and translation |
-| [MAFFT](https://mafft.cbrc.jp/alignment/software/) | v7.526 | Multiple sequence alignment |
-| [TrimAL](https://github.com/inab/trimal) | v3.0 | Alignment trimming |
-| [IQ-TREE](http://www.iqtree.org/) | v3.0.1 | Maximum likelihood inference |
+| [seqkit] | v2.12.0 | Sequence cleaning and translation |
+| [MAFFT] | v7.526 | Multiple sequence alignment |
+| [TrimAL] | v3.0 | Alignment trimming |
+| [IQ-TREE] | v3.0.1 | Maximum likelihood inference |
 
 ### R packages
 | Package | Purpose |
@@ -63,7 +63,7 @@ bash scripts/msa_align.sh <gene>.fasta
 - Saves translated sequences to the working folder
 - Runs MAFFT alignment and saves output to `<gene>_aligned.fasta`
 
-### Step 2 — Alignment Trimming
+### Step 2: Alignment Trimming
 
 ```bash
 bash scripts/trimAL.sh <gene>_aligned.fasta
@@ -71,7 +71,7 @@ bash scripts/trimAL.sh <gene>_aligned.fasta
 
 This trims the aligned sequences to a consistent length using TrimAL. Output saved to `<gene>_trimmed.fasta`. Trimming is required prior to parsimony inference, as Phangorn requires equal-length input sequences.
 
-### Step 3 — Maximum Parsimony Tree
+### Step 3: Maximum Parsimony Tree
 
 ```bash
 bash scripts/parsimony.sh <gene>_trimmed.fasta
@@ -82,7 +82,7 @@ bash scripts/parsimony.sh <gene>_trimmed.fasta
 - Runs NNI optimization followed by parsimony ratchet search to find the most parsimonious topology.
 - Outputs the tree as `<gene>.tre`
 
-### Step 4 — Maximum Likelihood Tree
+### Step 4: Maximum Likelihood Tree
 
 ```bash
 bash scripts/iqtree.sh <gene>_aligned.fasta
@@ -92,11 +92,11 @@ bash scripts/iqtree.sh <gene>_aligned.fasta
 - Ultrafast bootstrapping with 1000 replicates (`-B 1000`), which is adjustable
 - Outputs a `.treefile`
 
-### Step 5 — Tree Visualization
+### Step 5: Tree Visualization
 
 Trees were visualized and re-rooted using [iTOL v7.5.1](https://itol.embl.de/). Species names were annotated using the automatic NCBI taxonomy assignment. Trees were rooted on the same outgroup. Annotated trees were exported as `phylo.xml`.
 
-### Step 6 — Tree Comparison
+### Step 6: Tree Comparison
 
 ```bash
 bash scripts/tree_comparisons.sh <gene>_ml.xml <gene>_mp.xml
