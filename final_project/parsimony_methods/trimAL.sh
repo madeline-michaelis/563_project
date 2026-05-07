@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#Script to trim sequences to fix parsimony requirements. Run before parsimony.sh. 
+#Usage: bash trimAL.sh filename (file is MSA fasta).
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TRIMAL="${SCRIPT_DIR}/trimal/trimal"
