@@ -1,4 +1,7 @@
 #!/bin/bash
+#This script takes in two xml files and compares them with a series of packages. 
+#Usage: bash tree_comparison.sh filename1.xml filename2.xml
+
 #Assign arguments
 IQTREE_XML="$1"
 PARS_XML="$2"
